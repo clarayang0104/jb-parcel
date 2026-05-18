@@ -1,0 +1,31 @@
+{
+  "name": "jb-parcel",
+  "version": "1.0.0",
+  "description": "``` jb-parcel/ ├── package.json ├── vercel.json ├── public/ │   └── index.html └── src/     ├── index.js     ├── firebase.js   ← Firebase config & storage     └── App.jsx       ← 主要 app 代码 ```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "firebase": "^12.13.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
