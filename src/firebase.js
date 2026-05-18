@@ -1,5 +1,3 @@
-// src/firebase.js
-// ⚠️ YOUR FIREBASE CONFIG - already filled in from your screenshot
 import { initializeApp } from "firebase/app";
 import { getFirestore, doc, getDoc, setDoc, deleteDoc, collection, getDocs, query, where } from "firebase/firestore";
 import { getAuth, signInAnonymously } from "firebase/auth";
